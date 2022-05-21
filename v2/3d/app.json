@@ -1,0 +1,28 @@
+{
+  "name": "v2",
+  "description": "Deploy to Heroku",
+  "keywords": [
+    "VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "vmess or vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket path",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}

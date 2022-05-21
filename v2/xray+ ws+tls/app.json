@@ -1,0 +1,21 @@
+{
+    "name": "test",
+    "description": "test",
+    "keywords": ["test"],
+    "env": {
+        "AUUID": {
+            "description": "ID",
+            "value": "8f91b6a0-e8ee-11ea-adc1-0242ac120002"
+        },
+        "CADDYIndexPage": {
+            "description": "Index Page",
+            "value": "https://raw.githubusercontent.com/caddyserver/dist/master/welcome/index.html"
+        },
+        "ParameterSSENCYPT": {
+            "description": "Parameter SSENCYPT",
+            "value": "chacha20-ietf-poly1305"
+        }
+    },
+    "repository": "",
+    "stack": "container"
+}

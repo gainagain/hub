@@ -1,0 +1,12 @@
+{
+    "name": "VL",
+    "description": "Heroku.",
+    "keywords": ["VLESS"],
+    "env": {
+        "ID": {
+            "description": "ID",
+            "value": "1309c705-61ff-47d3-bab9-67a377e403db"
+        }
+    },
+    "stack": "container"
+}
